@@ -2,7 +2,7 @@ nuget {
 	nuspec {
 		id = luacheck;
 		title: LuaCheck;
-		version: 0.7.3.0010;
+		version: 0.7.3.0018;
 		authors: {coapp, Peter Melnichenko, Andrew Starks, Tightrope Media Systems};
 		owners: {Peter Melnichenko};
 
@@ -27,8 +27,8 @@ Luacheck provides a command line interface as well as a Lua module which can be 
             // Each item follows the format "<pkg_name>/<version>"
             lua/"[5.1, 5.4)",
             luafilesystem/"[1.6.2, 1.7)",
-            ansicolors/"[1.0, 2.0)",
-            argparse/"[0.3.0, 1.0)",
+            ansicolors/"[1.0.2, 2.0)",
+            argparse/"[0.3.0.0003, 1.0)",
         };
     }
 	files {
@@ -48,7 +48,7 @@ Luacheck provides a command line interface as well as a Lua module which can be 
 		};
 		
 		lua: {"src\luacheck\*.lua"};
-		cmd: {"bin\luacheck.lua"}
+		cmd: {"bin\luacheck.lua", "bin\luacheck.bat"}
     }
 
     targets {

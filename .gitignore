@@ -3,3 +3,4 @@
 docsrc/_build
 docsrc/_static
 docsrc/_templates
+*.nupkg
